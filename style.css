@@ -50,14 +50,14 @@
     color: #E5E7EB;
 }
 
-button{
+button.first{
     background-color: #3882F6;
     margin-top: 15px;
     height: 35px;
     width: 80px;
     border-radius: 7px;
 }
-button a{
+.first a{
     color: white;
     text-decoration: none;
     font-size: 15px;
@@ -134,4 +134,56 @@ button a{
     font-weight: 600;
 }
 
+.forth{
+    margin-top: 40px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forth .signup{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 900px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 10px;
+}
 
+.signup div{
+    font-size: large;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+span{
+    display: inline;
+    font-size:medium;
+    font-weight:lighter;
+}
+
+.forth button{
+    background-color: #3882F6;
+    height: 30px;
+    width: 80px;
+    border: 3px solid #E5E7EB;
+    border-radius: 6px;
+}
+
+.forth a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #1F2937;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: large;
+}
